@@ -1,0 +1,79 @@
+#page{
+    background: url(https://img.freepik.com/free-photo/flat-lay-workstation-with-copy-space-laptop_23-2148430879.jpg?w=826&t=st=1693564991~exp=1693565591~hmac=35fc1569e9fa9b68a58a8328b514ed0bc1a2e40b55bba74764c8aa4322a137e5);
+     height: 800px;
+     width: 100%;
+     background-position: center;
+     display: flex;
+     align-items: center;
+     padding: 2vw;
+     background-size: cover;
+}
+*{
+    padding: 0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+h1{
+    display: block;
+    align-items: center;
+    padding: 5px;
+}
+#form{
+    align-items: center;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(241, 235, 235);
+    width: 27%;
+    flex-direction: column;
+}
+form{
+    width: 100%;
+    display: block;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    padding: 5px;
+    height: 70%;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 2px solid #dadada;
+    border-bottom: 3px #979797ab;
+    box-shadow: #35485d;
+    border: silver;
+}
+.input-box,input{
+    border: none;
+    padding: 10px;
+    outline: none;
+    background-color: white;
+}
+.input-box,i{
+    padding: 5px;
+}
+.input-box,select{
+    display: flex;
+    margin-left: 10px;
+    width: 90%;
+    border: none;
+}
+.radio-box{
+    display: flex;
+    margin-left: 20px;
+    font-size: 18px;
+    align-items: center;
+    margin-bottom: 15px;
+}
+button{
+    width: 90%;
+    height: 80%;
+    padding: 9px;
+    margin-left: 10px;
+    background-color: #35485d;
+    color: white;
+    margin-bottom: 15px;
+}
